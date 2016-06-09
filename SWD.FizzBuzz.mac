@@ -1,0 +1,8 @@
+	// fbTest
+	write "fbTest", !
+	write "Usage: do test1^SWD.fbTest", !
+	quit
+	
+test1
+	set fb=##class(SWD.FizzBuzz).%New()
+	do fb.Display()
